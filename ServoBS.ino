@@ -46,7 +46,7 @@ void loop()
       delay(10);                   //Delay added for stability
       button = Serial.read();      //Store the input in button
       Serial.println("New data available");
-    
+    }
 
    switch(button)
    {
